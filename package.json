@@ -1,7 +1,7 @@
 {
-    "name": "foxg-ame",
+    "name": "digipet",
     "version": "1.0.0",
-    "description": "A minimalistic pet game in Vanilla JS",
+    "description": "A minimalistic pet game in ES6 JS",
     "main": "index.js",
     "engines": {
         "node": ">=10.14.2"
@@ -12,14 +12,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/DigitalVilla/foxGame.git"
+        "url": "git+https://github.com/DigitalVilla/Digipet.git"
     },
     "author": "Brian Holt & Digital Villa Inc.",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/DigitalVilla/foxGame/issues"
+        "url": "https://github.com/DigitalVilla/Digipet/issues"
     },
-    "homepage": "https://github.com/DigitalVilla/foxGame#readme",
+    "homepage": "https://github.com/DigitalVilla/Digipet#readme",
     "devDependencies": {
         "eslint": "^7.0.0",
         "eslint-config-prettier": "^6.11.0",
