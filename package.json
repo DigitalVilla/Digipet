@@ -1,32 +1,37 @@
 {
-    "name": "digipet",
-    "version": "1.0.0",
-    "description": "A minimalistic pet game in ES6 JS",
-    "main": "index.js",
-    "engines": {
-        "node": ">=10.14.2"
-    },
-    "scripts": {
-        "dev": "parcel app/public/index.html",
-        "test": "jest"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/DigitalVilla/Digipet.git"
-    },
-    "author": "Brian Holt & Digital Villa Inc.",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/DigitalVilla/Digipet/issues"
-    },
-    "homepage": "https://github.com/DigitalVilla/Digipet#readme",
-    "devDependencies": {
-        "eslint": "^7.0.0",
-        "eslint-config-prettier": "^6.11.0",
-        "eslint-plugin-import": "^2.20.2",
-        "jest": "^26.0.1",
-        "parcel-bundler": "^1.12.4",
-        "prettier": "^2.0.5",
-        "sass": "^1.26.5"
-    }
+  "name": "digipet",
+  "version": "1.0.0",
+  "description": "A minimalistic pet game in ES6 JS",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.14.2"
+  },
+  "scripts": {
+    "dev": "parcel app/public/index.html",
+    "lint": "eslint --ignore-path ./.gitignore --fix \"./**/*.{js,ts}\"",
+    "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\"",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalVilla/Digipet.git"
+  },
+  "author": "Brian Holt & Digital Villa Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DigitalVilla/Digipet/issues"
+  },
+  "homepage": "https://github.com/DigitalVilla/Digipet#readme",
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^26.0.1",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5",
+    "sass": "^1.26.5"
+  },
+  "browserslist": [
+    "last 2 Firefox versions"
+  ]
 }
