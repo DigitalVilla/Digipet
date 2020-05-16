@@ -4,9 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survive Game</title>
+    <link rel="stylesheet" href="../scss/main.scss" />
   </head>
   <body>
-    <h1>Digipet</h1>
+    <div class="container">
+      <div class="inner">
+        <div class="game day"></div>
+        <div class="fox hidden"></div>
+        <div class="poop-bag hidden"></div>
+        <div class="foreground-rain"></div>
+        <div class="frame"></div>
+        <div class="modal">
+          <div class="modal-inner">
+            Press the middle button to start
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="btn left-btn" aria-label="left selctor"></button>
+          <button class="btn middle-btn" aria-label="enter button"></button>
+          <button class="btn right-btn" aria-label="right selctor"></button>
+        </div>
+        <div class="icons">
+          <div class="icon highlighted fish-icon"></div>
+          <div class="icon poop-icon"></div>
+          <div class="icon weather-icon"></div>
+        </div>
+      </div>
+    </div>
+
     <script src="../src/index.js"></script>
   </body>
 </html>
